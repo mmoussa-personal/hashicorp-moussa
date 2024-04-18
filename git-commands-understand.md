@@ -32,3 +32,15 @@ Use the `git merge` command to merge content from a remote branch to your local 
 To make sure both branches are synchronized before performing a `git merge`, use the `git status` command.
 
 typo xxx
+
+## About git push
+
+Use the `git push` command to send new or updated content that is stored locally to a remote repository. 
+
+The command first verifies whether there is a remote branch. If a remote branch exists, `git push` sends the content to it. Both your local branch and the remote branch are then synchronized.
+
+If commits in the remote branch are missing from your local branch, the command  recognizes that the branches diverged, and the command fails.
+
+To synchronize both branches before using the `git push` command, first use the `git pull` command.
+
+typo xxx
