@@ -13,15 +13,11 @@ Use the `git fetch` command to add content from a remote repository to your loca
 
 To merge content to your local branch, use `git pull` followed by `git merge`.
 
-typo xxx
-
 ## About git pull
 
 Use the `git pull` to both fetch commits from a remote branch and merge them into a local branch. Use this command if you do not need first to verify the commits on the remote branch.
 
 Use this command on a regular basis to make sure your local branch up to date. 
-
-typo xxx
 
 ## About git merge
 
@@ -30,8 +26,6 @@ Use the `git merge` command to merge content from a remote branch to your local 
 `git push <remote-name> <local-name>`
 
 To make sure both branches are synchronized before performing a `git merge`, use the `git status` command.
-
-typo xxx
 
 ## About git push
 
@@ -43,4 +37,3 @@ If commits in the remote branch are missing from your local branch, the command 
 
 To synchronize both branches before using the `git push` command, first use the `git pull` command.
 
-typo xxx
