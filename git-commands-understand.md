@@ -22,3 +22,13 @@ Use the `git pull` to both fetch commits from a remote branch and merge them int
 Use this command on a regular basis to make sure your local branch up to date. 
 
 typo xxx
+
+## About git merge
+
+Use the `git merge` command to merge content from a remote branch to your local branch. Specify the names of both the remote and local branches:
+
+`git push <remote-name> <local-name>`
+
+To make sure both branches are synchronized before performing a `git merge`, use the `git status` command.
+
+typo xxx
